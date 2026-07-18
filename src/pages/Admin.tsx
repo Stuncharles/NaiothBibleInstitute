@@ -23,7 +23,16 @@ import {
   ArrowRightLeft,
   ShieldCheck,
   ShieldAlert,
-  Bell
+  Bell,
+  Image as ImageIcon,
+  Loader2,
+  Upload,
+  Trash2,
+  Globe,
+  HelpCircle,
+  Check,
+  AlertCircle,
+  ExternalLink
 } from "lucide-react";
 import { motion } from "motion/react";
 import { adminService } from "../services/adminService";
@@ -62,6 +71,9 @@ export default function Admin() {
   const [settingsSuccess, setSettingsSuccess] = useState<string | null>(null);
   const [settingsLoading, setSettingsLoading] = useState(false);
   const [securityNotifications, setSecurityNotifications] = useState<any[]>([]);
+
+  // Tab Control and state
+  const [activeTab, setActiveTab] = useState<"registrations">("registrations");
 
   const loadNotifications = async () => {
     try {
@@ -350,7 +362,8 @@ export default function Admin() {
           </div>
         </div>
 
-        {/* Dashboard Cards (Stats Grid) */}
+
+            {/* Dashboard Cards (Stats Grid) */}
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[...Array(4)].map((_, i) => (
@@ -737,7 +750,8 @@ export default function Admin() {
 
         </div>
 
-        {/* Security Settings Modal */}
+
+      {/* Security Settings Modal */}
         {isSettingsOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
             <motion.div
