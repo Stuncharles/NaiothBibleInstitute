@@ -67,8 +67,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">EMAIL ADDRESS</span>
-                    <a href="mailto:info@naioth.org" className="text-sm font-bold text-brand-accent dark:text-brand-gold hover:underline">
-                      info@naioth.org
+                    <a href="mailto:Ihuomaifeanyi51@gmail.com" className="text-sm font-bold text-brand-accent dark:text-brand-gold hover:underline">
+                      Ihuomaifeanyi51@gmail.com
                     </a>
                   </div>
                 </div>
@@ -81,7 +81,8 @@ export default function Contact() {
                   <div>
                     <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest">TELEPHONE CONTACT</span>
                     <p className="text-sm font-bold text-slate-700 dark:text-slate-300">
-                      +234 803 456 7890, +234 812 987 6543
+                      <a href="tel:+2347038482307" className="hover:text-brand-accent dark:hover:text-brand-gold transition-colors">+234 703 848 2307</a>,{" "}
+                      <a href="tel:+2349036261007" className="hover:text-brand-accent dark:hover:text-brand-gold transition-colors">+234 903 626 1007</a>
                     </p>
                   </div>
                 </div>

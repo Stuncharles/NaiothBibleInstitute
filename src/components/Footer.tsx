@@ -106,13 +106,16 @@ export default function Footer() {
               </li>
               <li className="flex gap-2.5 items-center">
                 <Mail className="w-4 h-4 text-brand-gold shrink-0" />
-                <a href="mailto:info@naioth.org" className="hover:text-brand-gold">
-                  info@naioth.org
+                <a href="mailto:Ihuomaifeanyi51@gmail.com" className="hover:text-brand-gold">
+                  Ihuomaifeanyi51@gmail.com
                 </a>
               </li>
-              <li className="flex gap-2.5 items-center">
-                <Phone className="w-4 h-4 text-brand-gold shrink-0" />
-                <span>+234 803 456 7890</span>
+              <li className="flex gap-2.5 items-start">
+                <Phone className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+2347038482307" className="hover:text-brand-gold">+234 703 848 2307</a>
+                  <a href="tel:+2349036261007" className="hover:text-brand-gold">+234 903 626 1007</a>
+                </div>
               </li>
             </ul>
           </div>
