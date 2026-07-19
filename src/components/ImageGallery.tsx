@@ -10,34 +10,69 @@ interface GalleryFile {
 
 const CAMPUS_IMAGES: GalleryFile[] = [
   {
-    id: "campus-1",
-    title: "Commencement Caps Ceremony",
-    imageUrl: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    id: "1hb8-UQpvWPFLgAOaocIgLCT7_3rCP9bt",
+    title: "NBI Graduation Celebration",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjJam33cgJcaemTo8sAxkm0U7jaqWMFG_-ESY693H6ToVCOrB9HOcX6ySlHpnAGfi1ClC1-P7f7JAnXXIeZc5s4_IkxVs2rt4NlGSG=s1000"
   },
   {
-    id: "campus-2",
-    title: "Classroom Bible Exposition",
-    imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    id: "1YF28DsE4PmoGm9HGlvhcfY2T9-Pzb5bO",
+    title: "NBI Cohort Group Photo",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDT2qluOrjRbwSjK8F4hxSYC5TvpKlVd-qdFJuSID-nkYHqvJ_dVthjrDGdAr7u7uKisWptiots_JbjZL-uyubXiWER7YUKbrLAcCQ=s1000"
   },
   {
-    id: "campus-3",
-    title: "Theological Library Research",
-    imageUrl: "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=1200&q=80"
+    id: "1u4s35M7q3A-Pj57U3IJAEh6l3nZeh-kO",
+    title: "Graduation Convocation",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzVijqWot4kRQ-k8YP0I_Eaf7Y436aiGBGHCWhOE7Mltu1XobGmnkiwQ5aUlyv27B29Luy4XdVWQeT_ny3zijEabhDG3DkNR9w-R6F=s1000"
   },
   {
-    id: "campus-4",
-    title: "Cohort Fellowship & Discussion",
-    imageUrl: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
+    id: "1_09ECBfvHgxp2FjcFiajtgmUCjQaZH6v",
+    title: "NBI Academic Procession",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpXxaYqud790huKvlzovQuAbaPqFVSOCdVocdoitIK8oIlPkK7zSNmEJ58WmxUv23cuTMh88pZSfTXUKrKFBmlV9rTTPm_buR9M6Ik=s1000"
   },
   {
-    id: "campus-5",
-    title: "Ministry Leadership Training",
-    imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80"
+    id: "16CFNiK4JWT7O4zroZ5JSdPPhmW-O0rOM",
+    title: "Student Presentation Ceremony",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4JZ18XWfXT-cLylsb3sK_zfTNIbY7TP-Bv3IAt5WdUX1EAli3wW4CgrtwkLmuL9BCSQUrQvFGiGhLIeCmqBa4AeHpxpo0MLtwu5TU=s1000"
   },
   {
-    id: "campus-6",
-    title: "Sacred Devotion & Scripture Study",
-    imageUrl: "https://images.unsplash.com/photo-1504052434569-7c9302e09140?auto=format&fit=crop&w=1200&q=80"
+    id: "1Gn1RQ0zfMbgIRk0-bbkmqVNlReY8UiAI",
+    title: "Graduates and Faculty Fellowship",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9Wmrgx8Y59msncvDkmnCtIywvdM344tKaY_7LIOXWxVodCjQktGyqLr-Uk-hRSQg-IeoUc8ph71lgUBZkxF8bNOzXDXQvwHquK6IH=s1000"
+  },
+  {
+    id: "12_paXBmEqhILs3OMCFssLRnXTOfxnhF6",
+    title: "Honored Graduates Presentation",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjght0A4mkGoJY3NkdY8TxdqDU8-GIQNwwJ7LX0DV9l4ci_C28pzGjg6X1vTqLiTJwsWuAJc_THMXn-Acx7lxoDJEOK7MswQeC4Y6p=s1000"
+  },
+  {
+    id: "1RPWu0-yvU4flg09BGiAloSqB5UHj3yF2",
+    title: "NBI Convocation Address",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9eGxcrZQDUs4NW1JU5vujXT28IU4CHWdY12mmjtZTcpkD26MPHqi3cLXsXb44qPqvjDaNJiDfjF49KAEhINsIa4RWW4o_wTwE8kJm=s1000"
+  },
+  {
+    id: "1u3uo0gtHYIhJ91RJethfhmLs0BaAcIpS",
+    title: "Academic Commissioning",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNi2hNG9VyH5YeAtTo0F1AY-dEClErPyceGOLOdn84W4xkOctZE1FdbvnF3I0asf-C-Ae7cNaJ71srqR6NUzKtdmnq59EbVyLio8iZ=s1000"
+  },
+  {
+    id: "1OcmJ3tuuzEXSQE6glHwNgVVAmNRCrnY-",
+    title: "Graduates Group Fellowship",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFqfB2TdBPO2iESng-1rGK0txuwgrKkPon6we-jHK2qCRMpAFXhAMS2jCjhICt8HSy8kAi4PW5wDB5gJteZqy7sIgot9gkR6ZgbMu5=s1000"
+  },
+  {
+    id: "196J2H6uA-UvBdNZ4vhBwmgFqh5iMy6CE",
+    title: "Graduates Fellowship Banquet",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBONTWCvu1OxWtjYaSiTHWYsy0V0k_qsQKgoNVTuhxtz2gEWubUB5lok1ZbIHwYowQxHyc0i8HYi0_l7Pjtgl9-pMML9CaN68GGA4Int=s1000"
+  },
+  {
+    id: "1SXEt5P4_tUoTflaxFdKNnhTJ1tJg1shI",
+    title: "Commencement Cap Presentation",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRoyC1-na9-Ou_n6UyDt2Qmh2zUSYsrBNW5LKE45ypDD6Pvu1ClahQp5k3wRSbt3OtmAvfigByqvjR_9zKPJRLrZBbUW-D60LG73st=s1000"
+  },
+  {
+    id: "1SUK8_X5p1Q_7s7VYzEsWjplAIVdQL_7H",
+    title: "Faculty and Board Members",
+    imageUrl: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJ4TjtoODH_kYVPT8lWw_DancixSMkEAWC3n0RVkvOAfBmt8eH89RJ6aC0dwXt1ntbpZR_PhlsyBPy6hYbfpmI3VYsBteGuCZRX0La=s1000"
   }
 ];
 
@@ -57,7 +92,9 @@ export default function ImageGallery() {
     const fetchGallery = async () => {
       try {
         setLoading(true);
-        const res = await fetch("/api/drive-gallery");
+        const apiBase = (import.meta as any).env.VITE_API_URL || "/api";
+        const fetchUrl = apiBase.endsWith("/api") ? `${apiBase}/drive-gallery` : `${apiBase}/api/drive-gallery`;
+        const res = await fetch(fetchUrl);
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
