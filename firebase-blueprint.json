@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "Registration": {
+      "title": "Registration",
+      "description": "Naioth Bible Institute student registration record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "gender": { "type": "string" },
+        "church": { "type": "string" },
+        "referralSource": { "type": "string" },
+        "status": { "type": "string" },
+        "createdBy": { "type": "string" },
+        "qrCode": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["fullName", "email", "status"]
+    }
+  },
+  "firestore": {
+    "/registrations/{registrationId}": {
+      "schema": "Registration",
+      "description": "Collection of student registrations"
+    }
+  }
+}

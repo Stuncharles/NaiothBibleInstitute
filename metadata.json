@@ -1,0 +1,6 @@
+{
+  "name": "Naioth Bible Institute",
+  "description": "Basic Theology Module Registration System and Admin Dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
